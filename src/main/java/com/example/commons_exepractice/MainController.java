@@ -17,8 +17,8 @@ public class MainController {
         String [] command = new String[4];
         command[0] = "python";
         command[1] = "D://test.py";
-        command[2] = "10";
-        command[3] = "20";
+        command[2] = "blob:http://localhost:3000/0fe53945-23d8-4627-9156-580316980f10";
+        command[3] = "asdfkjsdfijeksjldfj";
         try {
             return ResponseEntity.ok().body(execPython(command));
         } catch(Exception e) {
